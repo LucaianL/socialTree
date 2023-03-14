@@ -1,0 +1,71 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.main {
+    padding: 100px 0 200px 0;
+    margin: 0 auto;
+    width: 330px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-instagram {
+    text-align: center;
+
+}
+
+.image-instagram img {
+    width: 200px;
+    border-radius: 500px;
+    border: 2px solid #BB99DD;
+    padding: 6px;
+}
+
+.instagram {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: var(--purple);
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 23px;
+}
+
+.links {
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.links a {
+    display: block;
+    margin-top: 17px;
+    color: var(--purple);
+    text-transform: uppercase;
+    border: 2px solid #BB99DD;
+    border-radius: 6px;
+    padding: 18px 120px;
+    font-weight: 600;
+}
+
+.icons {
+    width: 298px;
+    padding: 70px 0 0 ;
+    text-align: center;
+}
+
+.icons-align{
+    display: inline-block;
+    padding-left: 32px;
+
+
+}
